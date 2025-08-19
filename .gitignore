@@ -8,6 +8,10 @@ venv/
 env/
 ENV/
 
+# UV specific
+.uv/
+uv.lock
+
 # VS Code and IDE stuff
 .vscode/
 .idea/
@@ -25,6 +29,7 @@ dist/
 *.log
 .mypy_cache/
 .pytest_cache/
+.ruff_cache/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -47,3 +52,6 @@ htmlcov/
 
 # Local data outputs (keep sample CSVs already present)
 data/tmp/
+
+# Pre-commit
+.pre-commit-cache/
