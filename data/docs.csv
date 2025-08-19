@@ -1,0 +1,4 @@
+id,title,url,text
+1,Installing PyTorch (示例),https://pytorch.org/get-started/locally/,要在本地安装 PyTorch，可使用 conda 或 pip。示例：conda install pytorch torchvision torchaudio -c pytorch。根据 GPU 情况选择 CUDA 版本。验证安装：import torch; print(torch.__version__).
+2,FastAPI 路径参数 (示例),https://fastapi.tiangolo.com/tutorial/path-params/,在 FastAPI 中声明路径参数：使用 @app.get('/items/{item_id}')，在函数参数处声明 item_id: int。你可以添加校验与文档说明。
+3,RAG 检索融合 (示例),https://example.com/rag/rrf,RAG 系统通常结合 BM25 与向量检索。RRF 融合通过 1/(k+rank) 累加排名分数，提升召回稳健性。随后使用 cross-encoder 重排（如 bge-reranker）。

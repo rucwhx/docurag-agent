@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code and IDE stuff
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python packaging/build
+build/
+dist/
+*.egg-info/
+
+# Logs and caches
+*.log
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Generated indexes / embeddings (adjust if you want them tracked)
+**/index.faiss
+**/index.pkl
+**/cache/*
+
+# Model weights (uncomment if large binary files should be ignored)
+# models/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Coverage
+htmlcov/
+.coverage*
+
+# Local data outputs (keep sample CSVs already present)
+data/tmp/

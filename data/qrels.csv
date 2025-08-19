@@ -1,0 +1,4 @@
+qid,question,answers,pos_chunk_ids
+q1,如何使用 conda 安装 PyTorch？,conda install pytorch,1_0_154
+q2,FastAPI 如何声明路径参数？,@app.get('/items/{item_id}'),2_0_85
+q3,RAG 中为什么使用 RRF 融合？,融合 BM25 与向量检索,3_0_95
